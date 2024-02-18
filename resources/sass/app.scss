@@ -1,0 +1,99 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color: #F4F5F7;
+}
+
+
+
+
+.content {
+    background: url('/public/images/ben-griffiths-l7R85WBKl1c-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 85.59px);
+}
+
+
+
+
+.recent .container .left ul {
+    list-style: none;
+}
+
+.recent .container .left ul li {
+    background-color: #EECA78;
+}
+
+.recent .container .left ul li:hover {
+    background-color: #C27803;
+}
+
+.recent .container .left ul li:hover a{
+    color: #EECA78;
+}
+
+.recent .container .left ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #8E4B10;
+}
+
+.recent .container .left .read {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+
+
+.posts:not(:last-child) {
+    border-bottom: 1px solid #999;
+}
+
+// .posts .container .post:not(:last-child) {
+//     border-bottom: 1px solid #ccc;
+// }
+.posts .container .post .img {
+    width: 50%;
+}
+
+.posts .container .post .details {
+    width: 50%;
+}
+
+@media(max-width: 767px) {
+    .posts .container .post .img,
+    .posts .container .post .details {
+        width: 100%;
+    }
+}
+
+
+form input[type= "text"]{
+    font-size: 50px;
+}
+form textarea {
+    font-size: 50px;
+}
